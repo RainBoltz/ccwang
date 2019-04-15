@@ -34,6 +34,14 @@
       font-style: italic;
       font-weight: bold;
     }
+    .isDisabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+      color: currentColor;
+      display: inline-block;  /* For IE11/ MS Edge bug */
+      pointer-events: none;
+      text-decoration: line-through;
+    }
   </style>
 
 </head>
@@ -85,7 +93,7 @@
         </h1>
         <div class="subheading mb-5">email address: 
           <a href="mailto:philip27020012@gmail.com">philip27020012@gmail.com</a>&emsp;|&emsp;
-          <a href="ChunChiehWang-CV.pdf" download><i class="fa fa-download"></i> download CV</a>
+          <a href="ChunChiehWang-CV.pdf" class="isDisabled" download><i class="fa fa-download"></i> download CV</a>
         </div>
         <p class="lead mb-5">Hi, I am <span class="marker">Philip</span>. <br>I am a strong self-motivating active learner, always full of curiosity about many things, and <span class="marker">cross-domain integration</span> is one of my proudest strengths. <br><span class="marker">Financial Technology</span> is my current research field, mainly focus on <span class="marker">numerical analytics</span> and <span class="marker">deep learning applications</span>. <br>Since I believe that we wouldn't be able to live without <span class="marker">Digital Finance</span>, I hope I could contribute to the <span class="marker">innovation of FinTech</span> in my future career.</p>
         <div class="social-icons">
@@ -119,7 +127,7 @@
             <p></p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">expected September 2019 - expected June 2021</span>
+            <span class="text-primary">September 2019 - expected June 2021</span>
           </div>
         </div>
 
@@ -131,7 +139,7 @@
             <p>Research Topic: Improving the Trading Strategy via Reinforcement Learning</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 - expected June 2019</span>
+            <span class="text-primary">September 2015 - June 2019</span>
           </div>
         </div>
 
@@ -162,7 +170,7 @@
             <p>Assist in the development of financial engineering algorithms related to machine learning and deep learning.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - Present</span>
+            <span class="text-primary">August 2018 - June 2019</span>
           </div>
         </div>
 
@@ -246,7 +254,7 @@
               <div class="card-body">
                 <h5 class="card-title">FX-Peeker</h5>
                 <p class="card-text">Inspired from CTBC forex trading team. The website provides "Candlestick Pattern Matching" and "Sentiment Analyze" service for forex trading.</p>
-                <a href="https://fxpeeker.serveo.net/" class="btn btn-light" target="_blank">Demo</a>&emsp;<a href="https://www.peculab.org/" class="btn btn-light" target="_blank">Pecu Lab</a>
+                <a href="https://fxpeeker.serveo.net/" class="btn btn-light" target="_blank">Demo</a>
               </div>
             </div>
           </div>
